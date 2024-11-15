@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    font-family:Helvetica, Arial, sans-serif;
+}
+body>header {
+    background-color: orange;
+}
+body>footer {
+    background-color: orange;
+}
+body>footer>p{
+    padding: 16px;
+    color: white;
+    text-align: center;
+}
