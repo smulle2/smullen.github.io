@@ -4,6 +4,7 @@ body{
     font-family:Helvetica, Arial, sans-serif;
 }
 body>header {
+    display: flex;
     background-color: orange;
 }
 body>footer {
