@@ -1,22 +1,26 @@
-body{
-    width: 200px;
+body {
+    max-width: 200px;
     margin: 0;
-    font-family:Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
-body>header {
+
+header {
     display: flex;
     height: 12vh;
     background-color: orange;
     justify-content: space-around;
 }
-header nav ul#nav-ul#nav_ul > li {
+
+#nav-ul {
+    list-style: none;
+    display: flex;
+}
+
+#nav-ul > li {
     padding: 8px;
     margin: 16px;
 }
-body > header > nav > ul {
-    list-style: none;
-    text-decoration: none;
-}
+
 .navbutton {
     color: white;
     text-decoration: none;
@@ -24,11 +28,10 @@ body > header > nav > ul {
     border: 1px solid white;
     border-radius: 10%;
 }
-body>footer {
+
+footer {
     background-color: orange;
-}
-body>footer>p{
-    padding: 16px;
-    color: white;
     text-align: center;
+    color: white;
+    padding: 16px;
 }
