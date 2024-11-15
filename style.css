@@ -7,6 +7,10 @@ body{
     padding: 8px;
     margin: 16px;
 }
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
 body>header {
     display: flex;
     height: 12vh;
