@@ -9,7 +9,7 @@ body>header {
     background-color: orange;
     justify-content: space-around;
 }
-#nav_ul > li {
+header nav ul#nav-ul#nav_ul > li {
     padding: 8px;
     margin: 16px;
 }
