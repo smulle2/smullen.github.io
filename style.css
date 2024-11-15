@@ -5,6 +5,7 @@ body{
 }
 body>header {
     display: flex;
+    height: 12vh;
     background-color: orange;
 }
 body>footer {
