@@ -3,6 +3,10 @@ body{
     margin: 0;
     font-family:Helvetica, Arial, sans-serif;
 }
+#nav_ul > li {
+    padding: 8px;
+    margin: 16px;
+}
 body>header {
     display: flex;
     height: 12vh;
