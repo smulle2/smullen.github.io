@@ -3,6 +3,12 @@ body{
     margin: 0;
     font-family:Helvetica, Arial, sans-serif;
 }
+body>header {
+    display: flex;
+    height: 12vh;
+    background-color: orange;
+    justify-content: space-around;
+}
 #nav_ul > li {
     padding: 8px;
     margin: 16px;
@@ -11,10 +17,12 @@ body > header > nav > ul {
     list-style: none;
     text-decoration: none;
 }
-body>header {
-    display: flex;
-    height: 12vh;
-    background-color: orange;
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
 }
 body>footer {
     background-color: orange;
