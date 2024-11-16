@@ -1,7 +1,7 @@
 /* === Global Styles === */
 body {
     max-width: 100%; /* Added a default value for max-width */
-    margin: 0;
+    margin: 0 auto;
     font-family: Helvetica, Arial, sans-serif;
 }
 
