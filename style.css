@@ -1,27 +1,27 @@
 /* === Global Styles === */
 body {
-    max-width: 100%; /* Added a default value for max-width */
-    margin: 0 auto;
+    max-width: 1200px; /* Limit overall width */
+    margin: 0 auto; /* Center body on screen */
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0 16px; /* Add padding for small screens */
 }
 
-/* === Header Styles === */
+/* === Header === */
 header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 12vh;
     background-color: orange;
-    justify-content: space-around;
+    padding: 0 16px;
 }
 
-/* Navigation */
 #nav-ul {
     list-style: none;
     display: flex;
-}
-
-#nav-ul > li {
-    padding: 8px;
-    margin: 16px;
+    gap: 16px; /* Spacing between nav items */
 }
 
 .navbutton {
@@ -32,15 +32,17 @@ header {
     border-radius: 10%;
 }
 
-/* === Content Styles === */
+/* === Content Layout === */
 #content-container {
     display: grid;
     grid-template-columns: 3fr 1fr; /* Main (3 parts), Aside (1 part) */
-    gap: 16px; /* Spacing between columns */
+    gap: 24px;
+    margin-top: 24px;
 }
 
 main {
     background-color: #fff;
+    padding: 16px;
 }
 
 aside {
@@ -49,10 +51,28 @@ aside {
     border-left: 2px solid #ddd;
 }
 
-/* === Footer Styles === */
+/* === Footer === */
 footer {
     background-color: orange;
     text-align: center;
     color: white;
-    padding: 16px;
+    padding: 24px 16px;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+    #content-container {
+        grid-template-columns: 1fr; /* Single column for smaller screens */
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
 }
