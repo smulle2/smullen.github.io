@@ -14,7 +14,7 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 12vh;
-    background-color: orange;
+    background-color: rgb(250, 37, 37);
     padding: 0 16px;
 }
 
@@ -53,7 +53,7 @@ aside {
 
 /* === Footer === */
 footer {
-    background-color: orange;
+    background-color: rgb(250, 37, 37);
     text-align: center;
     color: white;
     padding: 24px 16px;
