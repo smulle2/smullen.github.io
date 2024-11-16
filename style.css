@@ -1,9 +1,11 @@
+/* === Global Styles === */
 body {
-    max-width: 200px;
+    max-width: 100%; /* Added a default value for max-width */
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* === Header Styles === */
 header {
     display: flex;
     height: 12vh;
@@ -11,6 +13,7 @@ header {
     justify-content: space-around;
 }
 
+/* Navigation */
 #nav-ul {
     list-style: none;
     display: flex;
@@ -29,6 +32,24 @@ header {
     border-radius: 10%;
 }
 
+/* === Content Styles === */
+#content-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* Main (3 parts), Aside (1 part) */
+    gap: 16px; /* Spacing between columns */
+}
+
+main {
+    background-color: #fff;
+}
+
+aside {
+    background-color: #f4f4f4;
+    padding: 16px;
+    border-left: 2px solid #ddd;
+}
+
+/* === Footer Styles === */
 footer {
     background-color: orange;
     text-align: center;
