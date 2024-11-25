@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div id="flex-container">
     <!-- Header -->
     <header id="main-header"> 
         <h1 id="logo">Portfolio</h1>
@@ -36,18 +37,15 @@
             </article>
         </main>
 
-        <!-- Sidebar -->
-        <aside>
-            <section>
-                <h2>Links</h2>
-                <nav>
-                    <ul>
-                        <li><a href="https://x.com/RealSeanMullen">X</a></li>
-                        <li><a href="https://github.com/smulle2">GitHub</a></li>
-                    </ul>
-                </nav>
-            </section>
-        </aside>
+        
+        
+    </div>
+    <!-- Sidebar -->
+    <div id="link-container">
+        <nav>
+            <button class="xbutton" onclick="window.location.href='https://x.com/RealSeanMullen'"></button>
+            <button class="githubbutton" onclick="window.location.href='https://github.com/smulle2'"></button>
+        </nav>
     </div>
 
     <!-- Footer -->
@@ -77,5 +75,6 @@
             </section>
         </div>
     </footer>
+</div>
 </body>
 </html>
