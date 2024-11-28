@@ -7,32 +7,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="main-header">
-        <h1 id="logo">Portfolio</h1>
-        <nav>
-            <ul id="nav-ul">
-                <li><a href="index.html" class="navbutton">Home</a></li>
-                <li><a href="about.html" class="navbutton">About</a></li>
-                <li><a href="blog.html" class="navbutton">Blog</a></li>
-                <li><a href="cv.html" class="navbutton">CV</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="content-container">
-        <div>
-            <figure id="">
-                <iframe src="img/plot1_party_recipient.pdf"></iframe>
-                <figcaption> Time-series graph of abuse towards 7 MPs on X.com (DATE) </figcaption>
-            </figure>
+    <div id="flex-container">
+        <header id="main-header"> 
+            <h1 id="logo">Portfolio</h1>
+            <nav id="nav">
+                <a href="index.html" class="navbutton">Home</a>
+                <a href="about.html" class="navbutton">About</a>
+                <a href="blog.html" class="navbutton">Blog</a>
+                <a href="cv.html" class="navbutton">CV</a>
+            </nav>
+        </header>
+        <div id="content-container">
+            <div>
+                <figure id="">
+                    <iframe src="img/plot1_party_recipient.pdf"></iframe>
+                    <figcaption> Time-series graph of abuse towards 7 MPs on X.com (DATE) </figcaption>
+                </figure>
+            </div>
+            <article id="">
+                <h2>Test article</h1>
+                <p>This is a test article</p>
+                <footer>21/11/24</footer>
+            </article>
         </div>
-        <article id="">
-            <h2>Test article</h1>
-            <p>This is a test article</p>
-            <footer>21/11/24</footer>
-        </article>
+                <!-- Social link footer bar -->
+                <div id="social-link-container">
+                    <nav>
+                        <button class="xbutton" onclick="window.location.href='https://x.com/RealSeanMullen'"></button>
+                        <button class="githubbutton" onclick="window.location.href='https://github.com/smulle2'"></button>
+                    </nav>
+                </div>
+        <!-- Footer -->
+        <footer>
+            <h1>Portfolio</h1>
+            <div id="footer-container">
+                    <div id="footer-links">
+                        <h3>Portfolio Site</h3>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="cv.html">CV</a>
+                    </div>
+                    <div id="footer-links">
+                        <h3>Important Links</h3>
+                        <a href="/">Privacy Policy</a>
+                        <a href="/">Terms & Conditions</a>
+                        <a href="/">Cookies Policy</a>
+                    </div>
+            </div>
+        </footer>
     </div>
-    <foot>
-
-    </foot>
 </body>
 </html>

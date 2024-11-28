@@ -11,17 +11,19 @@ body {
 /* === Header === */
 header {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
     height: auto;
     background-color: rgb(250, 37, 37);
     padding: 0 16px;
 }
 
-#nav-ul {
-    list-style: none;
+#nav {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap;
+    justify-content: space-around;
     gap: 16px; /* Spacing between nav items */
 }
 
@@ -34,7 +36,7 @@ header {
 }
 
 /* === Content Layout === */
-.flex-container {
+#flex-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,7 +54,7 @@ main {
     padding: 16px;
 }
 
-#link-container {
+#social-link-container {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
@@ -83,6 +85,7 @@ main {
 
 /* === Footer === */
 footer {
+    width: 100%;
     background-color: rgb(250, 37, 37);
     text-align: center;
     color: white;
@@ -91,8 +94,20 @@ footer {
 
 #footer-container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     margin-top: 16px;
+}
+
+#footer-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
 }
 
 /* === Responsive Design === */
